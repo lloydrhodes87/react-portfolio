@@ -1,0 +1,14 @@
+.portfolio {
+   display: flex;
+   flex-direction: row;
+
+   .portfolio-container {
+       border: 1px solid blue;
+       width: 40rem;
+       height: 35rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 0 5rem;
+   }
+}
