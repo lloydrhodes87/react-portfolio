@@ -24,15 +24,15 @@ const PortfolioProject = ({project}) => {
         setShowDetail(false)
     }
 
-
-    console.log('project', project)
-
-    const name = project === null ? '' : project.name;
-
+    const image = project === null ? '' : project.image;
+    
     return (
         
         <div className='portfolio-piece-container'>
-            <button onClick={() => setShowDetail(true)}>{name}</button>
+
+            <button onClick={() => setShowDetail(true)}>
+                <img src={image} alt='project' height='300' />
+            </button>
             <Modal isOpen={showDetail} style={customStyles}>
                 <div className='sign-in-modal'>
                     <ProjectDetail handleCancelModal={handleCancelModal} project={project}/>
