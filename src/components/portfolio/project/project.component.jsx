@@ -11,8 +11,8 @@ const PortfolioProject = ({ project, modalOpen, setModalOpen }) => {
       right: "auto",
       bottom: "auto",
       marginRight: "-50%",
-      width: "600px",
-      height: "600px",
+      width: "1000px",
+      height: "700px",
       transform: "translate(-50%, -50%)"
     }
   };

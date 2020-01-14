@@ -15,7 +15,7 @@ const About = () => {
             Hi, my name is Lloyd and I'm a full stack developer based in the
             North West of England. Although my professional experience up to now
             has been in the Fintech industry I am passionate about all things
-            dev.
+            tech.
             <br></br>
             <br></br>
             After spending 10 years working in the music industry, I
