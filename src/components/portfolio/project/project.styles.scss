@@ -1,8 +1,28 @@
-.myElement {
-    opacity: 0;
-    transition: 4s opacity;
+
+
+.portfolio-piece-container {
+
+  img {
+    cursor: pointer;
+    height: 20rem;
+
   }
+
+  img {
+    .small {
+    
+      width: 40rem;
+    }
+  }
+
   
-  .fade-in {
-    opacity: 1;
-  }
+}
+
+
+
+
+
+
+
+
+

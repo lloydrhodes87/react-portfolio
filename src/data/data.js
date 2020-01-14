@@ -40,21 +40,24 @@ const projects = [{
     description: 'Classic noughts and crosses. This was built as a first React project at Northcoders',
     image: require('../assets/ipad-game.png'),
     gitHubLink: 'https://github.com/lloydrhodes87/noughts-and-crosses',
-    liveLink: 'https://noughtsncrosses.herokuapp.com/'
+    liveLink: 'https://noughtsncrosses.herokuapp.com/',
+    small: true
 },
 {
     name: 'Emoji Adventure',
     description: 'This is an app to search and filter to find Emojies. It was built at Northcoders as a React / API intergration exercise',
     image: require('../assets/phone-emoji.png'),
     gitHubLink: '',
-    liveLink: 'https://emoji-adventure.herokuapp.com/'
+    liveLink: 'https://emoji-adventure.herokuapp.com/',
+    small: true
 },
 {
     name: 'Github Search',
     description: 'This was built as a technical test for an interview. It is a simple React interface to search for github repos',
     image: require('../assets/phone-github.png'),
     gitHubLink: 'https://github.com/lloydrhodes87/techTest',
-    liveLink: 'https://tech-test-lr.herokuapp.com/'
+    liveLink: 'https://tech-test-lr.herokuapp.com/',
+    small: true
 },
 
 ];

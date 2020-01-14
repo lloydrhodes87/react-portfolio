@@ -9,16 +9,20 @@ import './skills.styles.scss';
 
 const Skills = () => {
     return (
-        <div className='half-section'>
-            <p>A selection of my favourite skill tech</p>
-            <div className='skills'>
-                <img src={js} alt='' height='100px'/>
-                <img src={react} alt='' height='100px'/>
-                <img src={vue} alt='' height='100px'/>
-                <img src={aws} alt='' height='100px'/>
-                <img src={node} alt='' height='100px'/>
-                <img src={sass} alt='' height='100px'/>
+        <div className='half-section skills-section' id='skills'>
+            <div className='skills-heading'>
+                <h2>Some tech I like to use...</h2>
             </div>
+        
+            <div className='skills'>
+                <img src={js} alt='skill' />
+                <img src={react} alt='skill' />
+                <img src={vue} alt='skill' />
+                <img src={aws} alt='skill' />
+                <img src={node} alt='skill' />
+                <img src={sass} alt='skill' />
+            </div>
+         
            
         </div>
     )

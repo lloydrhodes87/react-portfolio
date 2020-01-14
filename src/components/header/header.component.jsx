@@ -5,9 +5,35 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Header = () => {
     return (
         <div className='section header'>
-            <h1>Lloyd Rhodes</h1>
-            <h2>Full Stack Software Engineer</h2>
-            <AnchorLink href='#portfolio'>Portfolio</AnchorLink>
+            
+            
+            <ul id='grid' className='clear'>
+                <li>
+                    <div className="hexagon">
+                        <AnchorLink href='#portfolio'><h2>Portfolio</h2></AnchorLink> 
+                    </div>
+                </li>
+                <li>
+                    <div className="hexagon">
+                        <AnchorLink href='#about'><h2>About</h2></AnchorLink> 
+                    </div>
+                </li>
+                <li>
+                    <div></div>
+                </li>
+                <li>
+                    <div className="hexagon">
+                        <AnchorLink href='#skills'><h2>Skills</h2></AnchorLink> 
+                    </div>
+                </li>
+        
+       
+            </ul>
+            <div className='info'>
+                <h1>Lloyd rhodes</h1>
+                <h2>Full Stack Developer</h2>
+                <h2>{'{ }'}</h2>
+            </div>
             
         </div>
     )
