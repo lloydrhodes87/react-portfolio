@@ -42,9 +42,31 @@
   }
 }
 
-@media (max-width: 768px) {
-  .bar {
-    display: none;
+@media (max-width: 1030px) {
+  .portfolio-buttons {
+    display: flex;
+    width: 50%;
+
+    .outer-button-container {
+      display: flex;
+      align-items: center;
+
+      .bar {
+        display: none;
+      }
+
+      button {
+        font-size: 14px;
+        width: 100%;
+        justify-content: center;
+        background-color: #f5f5f5;
+      }
+    }
+
+    .outer-button-container:hover {
+      button {
+        color: orange;
+      }
+    }
   }
 }
-

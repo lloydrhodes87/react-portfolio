@@ -19,7 +19,7 @@ const PortfolioButtons = ({ handleGetProject, setModalOpen }) => {
       {projects.map(project => {
         const { name } = project;
         return (
-          <div className="outer-button-container" onMouseEnter={() => handleChooseProject(project)}>
+          <div key={name} className="outer-button-container" onMouseEnter={() => handleChooseProject(project)}>
             <button
               key={name}
               className="button-container"
