@@ -13,9 +13,11 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio section-portfolio" id="portfolio">
-      <div className="portfolio-panel">
+       <div className='divider'>
+
+      </div>
         <div className="portfolio-heading">
-          <h2>My Work...</h2>
+          <h2>My Work</h2>
         </div>
         <div className="portfolio-container">
           <div className="container-left">
@@ -32,8 +34,11 @@ const Portfolio = () => {
             />
           </div>
         </div>
+        <div className='divider'>
+
+        </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
